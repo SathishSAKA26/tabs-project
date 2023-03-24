@@ -144,3 +144,23 @@ button:hover::before {
   opacity: 1;
 }
 /* end */
+.about-content {
+}
+
+.content h3 {
+  display: flex;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+/* hide content */
+.content {
+  width: 50%;
+  margin: 1rem auto;
+  display: none;
+  text-align: start;
+}
+
+.content.active {
+  display: block;
+}
